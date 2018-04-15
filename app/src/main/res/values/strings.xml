@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">IT GCOEA</string>
+    <string name="title_activity_main">IT GCOEA</string>
+
+    <string name="FCM_PREF">com.example.w10.itgcoea.fcm_pref</string>
+    <string name="FCM_TOKEN">com.example.w10.itgcoea.fcm_token</string>
+
+
+    <string name="ddescript">The Department of Information Technology has been established in 2001 in out college. The department offers under graduate course in Information Technology. The total intake capacity for the under graduate course is of 60 students per year.\n\nProf. A. W. Bhade\n
+Head of Department\n
+Information Technology\n
+Government College of Engineering,\n
+Amravati - 444604\n
+Extention No.: 467
+</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="permission_request_message">Grant Permission</string>
+    <string name="action_settings">Settings</string>
+    <array name="upload_array">
+        <item>Take a Photo</item>
+        <item>Select from Galary</item>
+    </array>
+
+    <array name="year1">
+        <item>second year</item>
+        <item>third year</item>
+        <item>fourth year</item>
+
+    </array>
+    <array name="year2">
+
+        <item>second year</item>
+        <item>third year</item>
+        <item>fourth year</item>
+
+    </array>
+
+    <array name="semester">
+
+        <item>Semester III</item>
+        <item>Semester IV</item>
+        <item>Semester V</item>
+        <item>Semester VI</item>
+        <item>Semester VII</item>
+        <item>Semester VIII</item>
+    </array>
+
+
+    <array name="years">
+
+        <item>second year</item>
+        <item>third year</item>
+        <item>fourth year</item>
+
+    </array>
+    <array name="sem1">
+        <item>Semester I</item>
+        <item>Semester II</item>
+    </array>
+    <array name="sem2">
+        <item>Semester III</item>
+        <item>Semester IV</item>
+    </array>
+    <array name="sem3">
+        <item>Semester V</item>
+        <item>Semester VI</item>
+    </array>
+    <array name="sem4">
+        <item>Semester VII</item>
+        <item>Semester VIII</item>
+    </array>
+    <array name="sub1">
+        <item>java</item>
+        <item>m3</item>
+    </array>
+    <array name="sub2">
+        <item>cpp</item>
+        <item>toc</item>
+    </array>
+
+    <array name="sub22">
+        <item>m3</item>
+        <item>java</item>
+    </array>
+
+    <array name="sub33">
+        <item>operating system design</item>
+        <item>toc</item>
+    </array>
+
+    <array name="sub44">
+        <item>dwdm</item>
+        <item>nass</item>
+    </array>
+
+
+    <string name="title_activity_faculty_discussion">FacultyDiscussion</string>
+    <string name="title_activity_admin_main2">AdminMain2</string>
+
+
+    <string name="mt2">2] ARCHANA D. WANKHADE</string>
+    <string name="md2"> Asst. Professor \n
+    wankhade.archana@gcoea.ac.in </string>
+    <string name="mt3">3] SEEMA RAMESHWARRAO WANKHADE</string>
+    <string name="md3"> Asst. Professor \n
+    wankhade.seema@gcoea.ac.in </string>
+    <string name="mt4">4] RAJESH SHANKARAO MAWALE</string>
+    <string name="md4">Asst. Professor \n
+    mawale.rajesh@gcoea.ac.in  </string>
+    <string name="mt5">5] KISHOR PRAKASH WAGH</string>
+    <string name="md5">Asst. Professor \n
+    wagh.kishor@gcoea.ac.in  </string>
+    <string name="mt6">6] BHUSHAN V WAKODE\n</string>
+    <string name="md6">Asst. Professor \n
+    wakode.bhushan@gcoea.ac.in  </string>
+    <string name="mt7">7] DILIP R UIKE\n</string>
+    <string name="md7">Asst. Professor \n
+    uike.dilip@gcoea.ac.in </string>
+    <string name="mt8">8] PREMCHAND B AMBHORE\n</string>
+    <string name="md8">Asst. Professor \n
+    ambhore.premchand\@gcoea.ac.in </string>
+    <string name="mt9">9] VINOD NARAYAN DHORAN\n</string>
+    <string name="md9">Lab Asstt (Non-Teach) \n
+    dhoran.vinod\@gcoea\.ac.in
+    </string>
+
+    <string name="mt1">1] A. W. BHADE</string>
+    <string name="md1">Head of Department \n
+    bhade.archana@gcoea.ac.in </string>
+
+</resources>

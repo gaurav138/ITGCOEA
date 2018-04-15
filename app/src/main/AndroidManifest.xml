@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.w10.itgcoea">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".FacultyLogin" />
+        <activity android:name=".StudentLogin" />
+        <activity
+            android:name=".StudentMain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminMain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FacultyMain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FacultySignup" />
+        <activity android:name=".StudentSignup" />
+        <activity android:name=".AdminUploadFor" />
+        <activity android:name=".AdminStudentDoc" />
+        <activity
+            android:name=".StudentNotices"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <service android:name=".FcmInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FcmMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Attendance.TakeAttendance.AttendanceFront" />
+        <activity android:name=".Attendance.TakeAttendance.AttendanceActivity" />
+        <activity android:name=".Attendance.ViewAttendance.FacultyView" />
+        <activity android:name=".Attendance.ViewAttendance.getPercentage" />
+        <activity android:name=".Attendance.ViewAttendance.StudentView" />
+        <activity android:name=".UpdateDeleteStudentData.ShowActivity" />
+        <activity android:name=".UpdateDeleteStudentData.UpdateDelete" />
+        <activity android:name=".UpdateDeleteStudentData.UpdateRecord" />
+        <activity android:name=".Attendance.TakeAttendance.TakeViewAttendance" />
+        <activity android:name=".UpdateDeleteStudentData.SelectYear" />
+        <activity android:name=".UploadViewImage.ImageOrDoc" />
+        <activity android:name=".UploadViewImage.UploadImage" />
+        <activity
+            android:name=".UploadViewImage.ViewImage"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".UploadViewImage.ViewImage2" />
+        <activity android:name=".ViewImageOrDoc" />
+        <activity android:name=".DiscussionForum.Chat_Room" />
+        <activity android:name=".DiscussionForum.StudentDiscussion" />
+        <activity
+            android:name=".DiscussionForum.FacultyDiscussion"
+            android:label="@string/title_activity_faculty_discussion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UpdateSyllabus.UpdatetheSyllabus" />
+        <activity android:name=".UpdateSyllabus.UpdatetheSyllabus2" />
+        <activity android:name=".UpdateSyllabus.UpdateTimetable" />
+        <activity android:name=".UpdateFaculty.UpdateStudentOrFaculty" />
+        <activity android:name=".UpdateFaculty.UpdateDeleteFac" />
+        <activity android:name=".UpdateFaculty.UpdateRecord2" />
+        <activity
+            android:name=".Admin.MyTry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UpdateSyllabus.ViewSyllabus" />
+        <activity android:name=".UpdateSyllabus.ViewTimetable" />
+        <activity android:name=".navigator.AboutDepartment" />
+        <activity android:name=".navigator.ContactUs" />
+        <activity android:name=".navigator.GallaryActivity" />
+        <activity android:name=".navigator.PlacementActivity" />
+        <activity android:name=".Admin.NotificationAdmin" />
+        <activity android:name=".Attendance.ViewAttendance.getPercentage2" />
+        <activity android:name=".ApproveStudent.ApproveMain" />
+        <activity android:name=".ApproveStudent.ApproveActivity" />
+        <activity android:name=".ApproveStudent.AddOrApprove"></activity>
+    </application>
+
+</manifest>
